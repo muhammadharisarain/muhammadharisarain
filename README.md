@@ -1,7 +1,7 @@
 - 👋 Hi, I am Muhammad Haris Arain. (@muhammadharisarain)
 - 👀 I’m interested in Backend-Web Developing (NodeJs, express, Mongodb)
 - 🌱 I’m excited to learning  ReactJs, HTML, CSS
-- 💞️ I’m looking to collaborate on MERN Stack Developer
+- 💞️ I’m looking to collaborate as a MERN Stack Developer
 - 📫 How to reach me (I am Available on linkedin, github, twitter, facebook.)
 
 <!---
