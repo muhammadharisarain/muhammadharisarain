@@ -28,14 +28,8 @@ Always learning, improving, and contributing to projects that make an impact!
 ⚛️ React.js &nbsp;&nbsp; ⚡ Next.js  
 
 #### 🧰 **Tools & Platforms**
-🐙 Git / GitHub &nbsp;&nbsp; ☁️ DigitalOcean / AWS (S3) &nbsp;&nbsp; 🧪 Postman &nbsp;&nbsp; 🐳 Docker  
-
----
-
-### 🌱 Currently Learning  
-- Advanced SQL & PostgreSQL  
-- Python for backend scripting  
-- System design and scalable architecture  
+🐙 Git / GitHub &nbsp;&nbsp; ☁️ DigitalOcean / AWS (S3) &nbsp;&nbsp; 🧪 Postman &nbsp;&nbsp; API dog &nbsp;&nbsp; 🐳 Docker  
+ 
 
 ---
 
@@ -49,8 +43,7 @@ Always learning, improving, and contributing to projects that make an impact!
 ### 📫 Connect With Me  
 🌐 [LinkedIn](https://www.linkedin.com/in/muhammadharisarain)  
 💻 [GitHub](https://github.com/muhammadharisarain)  
-🐦 [Twitter](https://twitter.com/)  
-📘 [Facebook](https://facebook.com/)  
+📘 [Facebook](https://www.facebook.com/haris.arain.14661)  
 
 ---
 
