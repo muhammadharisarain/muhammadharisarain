@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Muhammad Haris Arain — Full Stack Developer</title>
+  <meta name="description" content="Muhammad Haris Arain — Full Stack Developer | MERN Stack Developer. Personal website showcasing projects, skills, and experience." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    :root{
+      --bg:#0b0f14; --card:#0f1720; --muted:#9aa5b1; --accent:#6ee7b7; --glass: rgba(255,255,255,0.03);
+      --radius:14px; --container:1100px; --glass-2: rgba(255,255,255,0.02);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;color:#e6eef6;background:linear-gradient(180deg,#061018 0%, #07121a 100%);}
+    .wrap{max-width:var(--container);margin:40px auto;padding:32px}
+
+    h1{margin:0;font-size:28px;letter-spacing:-0.6px}
+    .title{color:var(--accent);font-weight:700;margin-top:6px}
+    .meta{margin-top:10px;color:var(--muted);line-height:1.5}
+    .subtitle{color:#00ff88;font-weight:500;margin-top:4px;font-size:16px;font-style:italic;}
+
+    .btn{background:var(--accent);color:#042022;padding:10px 16px;border-radius:12px;text-decoration:none;font-weight:600;transition:all 0.25s}
+    .btn:hover{transform:scale(1.05);box-shadow:0 4px 12px rgba(0,255,136,0.4)}
+
+    .highlight { color:#00ff88; font-weight:600; }
+
+    .hero{display:grid;grid-template-columns:1fr 360px;gap:32px;align-items:center;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:28px;border-radius:18px;box-shadow:0 6px 30px rgba(2,6,23,0.6);backdrop-filter:blur(6px)}
+    .avatar{height:88px;width:88px;border-radius:14px;background:linear-gradient(135deg,var(--accent),#34d399);display:flex;align-items:center;justify-content:center;color:#042022;font-weight:800;font-size:26px}
+
+    section{margin-top:28px}
+    .grid-2{display:grid;grid-template-columns:1fr 380px;gap:24px}
+    .panel{background:var(--card);padding:20px;border-radius:12px;border:1px solid var(--glass);box-shadow:0 6px 18px rgba(2,6,23,0.5)}
+
+    .about p{color:var(--muted);line-height:1.7}
+
+    .skills{display:flex;flex-wrap:wrap;gap:12px}
+    .skill{display:flex;align-items:center;gap:10px;padding:8px 10px;background:var(--glass-2);border-radius:10px;color:#dffbf0;font-weight:600;font-size:14px}
+    .skill i{font-size:18px;color:var(--accent)}
+
+    .exp-item{margin-bottom:16px}
+    .exp-item h4{margin:0}
+    .exp-meta{color:var(--muted);font-size:13px;margin-top:4px}
+    .bullet{margin-top:8px;color:var(--muted);line-height:1.6}
+
+    .edu-item{margin-bottom:12px;color:var(--muted)}
+
+    .projects-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;margin-top:16px}
+    .project-card{background:var(--card);border:1px solid var(--glass);border-radius:14px;padding:12px;box-shadow:0 4px 16px rgba(0,0,0,0.4);transition:transform 0.3s, box-shadow 0.3s}
+    .project-card:hover{transform:scale(1.05);box-shadow:0 8px 24px rgba(0,255,136,0.4)}
+    .project-card img{width:100%;border-radius:10px;object-fit:cover}
+    .project-title{margin:8px 0;color:var(--accent);font-weight:700}
+    .project-description{color:var(--muted);font-size:14px;line-height:1.4}
+
+    .social-icon{display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;border-radius:50%;transition:transform 0.25s, box-shadow 0.25s;}
+    .social-icon:hover{transform:scale(1.1);box-shadow:0 0 12px var(--accent)}
+
+    .reveal{opacity:0;transform:translateY(10px);transition:all 700ms cubic-bezier(.2,.9,.2,1)}
+    .reveal.show{opacity:1;transform:none}
+
+    @media (max-width:950px){.hero{grid-template-columns:1fr;}.grid-2{grid-template-columns:1fr;}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header class="hero reveal">
+      <div>
+        <div style="display:flex;gap:12px;align-items:center">
+          <div class="avatar">MH</div>
+          <div>
+            <h1>Muhammad Haris Arain</h1>
+            <div class="title">Full Stack Developer | MERN Stack Developer</div>
+            <div class="subtitle">Converting Ideas into Reality — Passionate About Solving Real-World Problems with Technology</div>
+            <div class="meta">Currently: Lahore, Pakistan • Permanent: Hyderabad, Pakistan • Age: 22</div>
+            <div style="margin-top:14px; display:flex; gap:10px;">
+              <a href="mailto:harisarain704@gmail.com" class="social-icon" style="background:#00ff88;color:#042022;font-weight:700;font-size:18px">@</a>
+              <a href="https://www.linkedin.com/in/muhammad-haris-arain-0b9b41231/" target="_blank" class="social-icon" style="background:#0a66c2;color:#fff;"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="https://github.com/muhammadharisarain" target="_blank" class="social-icon" style="background:#24292f;color:#fff;"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="Muhammad_Haris_Arain_CV.pdf" download class="btn" style="margin-top:16px;display:inline-block">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="reveal">
+      <div class="grid-2">
+        <div class="panel">
+          <h3>About Me</h3>
+          <p>Hello! I’m Muhammad Haris Arain, a 22-year-old <span class="highlight">Full Stack</span> and <span class="highlight">MERN Stack</span> Developer with over 4 years of experience in building dynamic, user-friendly web applications. My journey started with a curiosity for how web technologies work and evolved into a passion for creating scalable, efficient solutions. I specialize in <span class="highlight">React.js</span>, <span class="highlight">Node.js</span>, <span class="highlight">NestJS</span>, <span class="highlight">Express</span>, and <span class="highlight">MongoDB</span>. Beyond coding, I love solving complex logical problems, mentoring fellow developers, and bringing innovative ideas to life. My goal is to create impactful applications that not only meet business needs but also provide an exceptional user experience.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="reveal">
+      <div class="panel">
+        <h3>Skills</h3>
+        <div class="skills">
+          <div class="skill"><i class="fa-brands fa-node-js"></i> Node.js</div>
+          <div class="skill"><i class="fa-brands fa-js"></i> JavaScript</div>
+          <div class="skill"><i class="fa-brands fa-react"></i> React.js</div>
+          <div class="skill"><i class="fa-solid fa-cubes-stacked"></i> Express.js</div>
+          <div class="skill"><i class="fa-solid fa-layer-group"></i> NestJS</div>
+          <div class="skill"><i class="fa-solid fa-database"></i> MongoDB</div>
+          <div class="skill"><i class="fa-solid fa-code"></i> TypeScript</div>
+          <div class="skill"><i class="fa-brands fa-github"></i> Git / GitHub</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="reveal">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="./fatoraty.png" alt="Fatoraty" />
+          <h3 class="project-title">Fatoraty</h3>
+          <p class="project-description">POS + Backoffice system for supermarkets using <span class="highlight">React</span>, <span class="highlight">Node.js</span>, <span class="highlight">Express</span>, <span class="highlight">MongoDB</span> and <span class="highlight">AWS</span>.</p>
+        </div>
+        <div class="project-card">
+          <img src="./tamam.png" alt="Tamam" />
+          <h3 class="project-title">Tamam</h3>
+          <p class="project-description">Form management system made with <span class="highlight">React.js</span> and <span class="highlight">Node.js</span>.</p>
+        </div>
+        <div class="project-card">
+          <img src="./campaign-estimator.png" alt="Campaign Estimator" />
+          <h3 class="project-title">Campaign Estimator</h3>
+          <p class="project-description">Campaign reach estimation app built with <span class="highlight">React</span> and <span class="highlight">Node.js</span> for multiple platforms and countries.</p>
+        </div>
+        <div class="project-card">
+          <img src="./dentbird.png" alt="Dentbird" />
+          <h3 class="project-title">Dentbird</h3>
+          <p class="project-description">Dental order management system — <span class="highlight">React.js</span> frontend, <span class="highlight">NestJS</span> backend, deployed on <span class="highlight">Azure</span>.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const reveals = document.querySelectorAll('.reveal');
+    const obs = new IntersectionObserver((entries)=>{entries.forEach(e=>{ if(e.isIntersecting)e.target.classList.add('show'); })},{threshold:0.12});
+    reveals.forEach(r=>obs.observe(r));
+  </script>
+</body>
+</html>
